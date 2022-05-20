@@ -1,0 +1,128 @@
+//https://www.zoho.com/sites/default/files/forms/templates/contact-us.png
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+}
+
+#contact-header{
+    background-color: #2dbaa5;
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px 5%;
+    .contact-header-left{
+        padding: 20px 0px;
+        #contact-us{
+            font-size: 52px;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    }
+}
+
+.form-first-row{
+    margin: 50px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    p{
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .first-name , .last-name{
+        display: inline-block;
+        label{
+            display: block;
+            color: grey;
+        }
+        input{
+            width: 500px;
+            padding: 13px;
+        }
+    }
+    .last-name{
+        margin-left: 15px;
+    }
+}
+
+.form-second-row{
+    margin-bottom: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    p{
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .form-email{
+        input{
+            width: 600px;
+            padding: 13px;
+        }
+    }
+    .form-age{
+        margin-top: 30px;
+        input{
+            width: 80px;
+            padding: 13px;
+        }
+    }
+}
+
+
+.form-third-row{
+    #btn-submit{
+        padding: 10px 40px;
+        background-color: #2dbaa5;
+        color: white;
+        font-size: 22px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        cursor: pointer;
+        &:active{
+            background-color: grey;
+        }
+    }
+
+    P{
+        margin-top: 30px;
+        color: green;
+        font-size: 20px;
+    }
+}
+
+span{
+    color: #b80f0f;
+}
+
+.message{
+    color: #b80f0f;
+    font-size: 15px !important;
+}
+
+#contact-form{
+    display: inline-block;
+}
+
+
+main{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    .info{
+        margin: 50px 0px;
+        div{
+            display: inline-block;
+            background-color: #2dbaa5;
+            color: white;
+            border-radius: 5%;
+            p{
+                padding: 10px;
+            }
+        }
+    }
+}

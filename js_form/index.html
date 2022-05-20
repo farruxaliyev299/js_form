@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/JS/script.js" defer></script>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>JS Form</title>
+</head>
+<body>
+    <header>
+        <section id="contact-header">
+            <div class="container">
+                <div class="contact-header-left">
+                    <p id="contact-us">Contact Us</p>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="container">
+            <form action="/" method="get" id="contact-form">
+
+                <div class="form-first-row">
+                    <p>Full Name<span id="star-1"></span></p>
+                    <div class="first-name">
+                        <p id="f-name" class="message"></p>
+                        <input type="text" id="in-fname">
+                        <label for="in-fname">First</label>
+                    </div>
+                    <div class="last-name">
+                        <p id="l-name" class="message"></p>
+                        <input type="text" id="in-lname">
+                        <label for="in-lname">Last</label>
+                    </div>
+                </div>
+                <div class="form-second-row">
+                    <div class="form-email">
+                        <p>Email<span id="star-2"></span></p>
+                        <p id="e-message" class="message"></p>
+                        <input type="email" id="in-email">
+                    </div>
+                    <div class="form-age">
+                        <p>Age<span id="star-3"></span></p>
+                        <p id="e-age" class="message"></p>
+                        <input type="number" id="in-age">
+                    </div>
+                </div>
+                <div class="form-third-row">
+                    <button type="submit" id="btn-submit">Submit</button>
+                    <p id="success"></p>
+                </div>
+            </form>
+
+        <div class="info">
+            <div>
+                <p id="print-fname">First Name :</p>
+                <p id="print-lname">Last Name :</p>
+                <p id="print-age">Age :</p>
+                <p id="print-email">Email :</p>
+            </div>
+        </div>
+    </div>
+    </main>
+</body>
+</html>

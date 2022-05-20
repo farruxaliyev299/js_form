@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+}
+
+#contact-header {
+  background-color: #2dbaa5;
+  width: 100vw;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  margin: 0px 5%;
+}
+
+.container .contact-header-left {
+  padding: 20px 0px;
+}
+
+.container .contact-header-left #contact-us {
+  font-size: 52px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-first-row {
+  margin: 50px 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-first-row p {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.form-first-row .first-name, .form-first-row .last-name {
+  display: inline-block;
+}
+
+.form-first-row .first-name label, .form-first-row .last-name label {
+  display: block;
+  color: grey;
+}
+
+.form-first-row .first-name input, .form-first-row .last-name input {
+  width: 500px;
+  padding: 13px;
+}
+
+.form-first-row .last-name {
+  margin-left: 15px;
+}
+
+.form-second-row {
+  margin-bottom: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-second-row p {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.form-second-row .form-email input {
+  width: 600px;
+  padding: 13px;
+}
+
+.form-second-row .form-age {
+  margin-top: 30px;
+}
+
+.form-second-row .form-age input {
+  width: 80px;
+  padding: 13px;
+}
+
+.form-third-row #btn-submit {
+  padding: 10px 40px;
+  background-color: #2dbaa5;
+  color: white;
+  font-size: 22px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  cursor: pointer;
+}
+
+.form-third-row #btn-submit:active {
+  background-color: grey;
+}
+
+.form-third-row P {
+  margin-top: 30px;
+  color: green;
+  font-size: 20px;
+}
+
+span {
+  color: #b80f0f;
+}
+
+.message {
+  color: #b80f0f;
+  font-size: 15px !important;
+}
+
+#contact-form {
+  display: inline-block;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main .info {
+  margin: 50px 0px;
+}
+
+main .info div {
+  display: inline-block;
+  background-color: #2dbaa5;
+  color: white;
+  border-radius: 5%;
+}
+
+main .info div p {
+  padding: 10px;
+}
+/*# sourceMappingURL=main.css.map */
